@@ -1,11 +1,10 @@
 <h1 align="center"> Cifrado de Texto </h1>
 
-*[Imagenes](#Título-e-imagen-de-portada)
 ![Encriptador - 1 Desktop](https://user-images.githubusercontent.com/83296577/195405245-8a08387c-33db-4cbd-ad13-ea39d43be7a8.jpg)
 ![Encriptador - 2 Desktop](https://user-images.githubusercontent.com/83296577/195405276-99f4ffda-6061-4d6d-a27f-29ca1cb17e3c.jpg)
 
 
-*[Descripción del proyecto](#descripción-del-proyecto)
+[<h2>Descripción del proyecto</h2>](#descripción-del-proyecto)
   <p align="left">
   
   ¡Bienvenidos y Bienvenidas a mi primer desafío!
@@ -41,21 +40,20 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
 
 
 
-*[Estado del proyecto](#Estado-del-proyecto)  
+* [Estado del proyecto](#Estado-del-proyecto)  
     <p align="left">
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
    </p>
 
-*[Enlaces:](#acceso-proyecto)
- DETALLES DE ESTE CHALLENGE:
- Contenidos importantes
- Link del Trello 
- https://trello.com/b/WTdfcewC/encriptador-de-texto-alura-challenges-one
- Modelo en Figma 
- https://www.figma.com/file/trP3p5nEh7XUyB3n2bomjP/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica?node-id=2%3A213
-<h1>Proyecto:link</h1>
+<h2>Contenidos importantes</h2>
+<p>Link del Trello </p>
+<p>https://trello.com/b/WTdfcewC/encriptador-de-texto-alura-challenges-one</p>
+<p>Modelo en Figma </p>
+<p>https://www.figma.com/file/trP3p5nEh7XUyB3n2bomjP/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica?node-id=2%3A213</p>
+<h1>Proyecto:</h1>
 
-*[Tecnologías utilizadas](#tecnologías-utilizadas)
-* HTML
-* CSS
-* JAVASCRIPT
+<h2>Tecnologia utilizadas</h2>
+<p>HTML</p>
+<p>CSS</p>
+<p>JavaScript</p>
+
