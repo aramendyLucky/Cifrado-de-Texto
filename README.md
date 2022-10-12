@@ -46,7 +46,14 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
    </p>
 
-*[Acceso al proyecto](#acceso-proyecto)
+*[Enlaces:](#acceso-proyecto)
+DETALLES DE ESTE CHALLENGE:
+Contenidos importantes
+Link del Trello 
+https://trello.com/b/WTdfcewC/encriptador-de-texto-alura-challenges-one
+Modelo en Figma 
+https://www.figma.com/file/trP3p5nEh7XUyB3n2bomjP/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica?node-id=2%3A213
+<h1>Link Proyecto:</h1>
 
 *[Tecnologías utilizadas](#tecnologías-utilizadas)
 * HTML
