@@ -1,10 +1,11 @@
-//Empiezo ocultando el text-area donde se muestrara el mensaje Cifrado/Descifrado
-document.getElementById('mensaje').style.display = 'none';
-//Empiezo ocultando el boton Copiar
-document.getElementById('copiar').style.display = 'none';
-
 const inputTexto = document.querySelector(".input-texto")
 const mensaje = document.querySelector(".mensaje")
+
+//Empiezo ocultando el text-area donde se muestrara el mensaje Cifrado/Descifrado
+    //document.querySelector(".mensaje").style.display = 'none';
+    document.getElementById('mensaje').style.display = 'none';
+//Empiezo ocultando el boton Copiar
+    document.getElementById('copiar').style.display = 'none';
 
 //La letra "e" es convertida para "enter"
 //La letra "i" es convertida para "imes"
@@ -19,13 +20,13 @@ function btnCifrar(){
     inputTexto.value = ""
     
     //Ocultando texto que al apretar "Cifrar"--> desaparece
-    document.getElementById('text-out').style.display = 'none';
+        document.getElementById('text-out').style.display = 'none';
     //Ocultando imagen tambien despues de apretar "Cifrar"
-    document.getElementById('munieco').style.display = 'none';
+        document.getElementById('munieco').style.display = 'none';
     //Permito visualizar el text-area del mensaje Cifrado/Descifrado
-    document.getElementById('mensaje').style.display = 'inline';
+        document.getElementById('mensaje').style.display = 'inline';
     //Permito visualizar el Boton Copiar
-    document.getElementById('copiar').style.display = 'inline-block';
+        document.getElementById('copiar').style.display = 'inline-block';
 }
 
 function cifrar(stringCifrado) {
