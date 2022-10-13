@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrado de texto Alura</title>
+
+    <link rel="shortcut icon" href="./assets/img/logo.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="./assets/img/logo.svg" alt="logo">   
+        </div>
+    </header>
+
+    <main>
+
+        <div>
+                
+            <section>
+                <div>
+                 <textarea class="input-texto" rows="4" cols="40" placeholder="Ingrese el texto Aquí"   title="Letras Minusculas y sin acento." ></textarea>
+                </div>
+
+                <div class="info">
+                    <img src="./assets/img/exclamacion.svg" alt="llamado de atencion"> 
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+            
+                <div class="botones">
+                    <button class="cifrar" onclick="btnCifrar()">cifrar</button>
+                    <button class="descifrar" onclick="btnDescifrar()">Descifrar</button>
+                </div>
+
+            </section>
+
+            <section>
+                <div class="resultado-tab">
+                    <textarea id="mensaje" class="mensaje" name="" id="" cols="40" rows="6">
+
+                    </textarea>
+                    <img id="munieco" class="munieco" src="./assets/img/muneco.svg" alt="">
+                    <div id="text-out" class="text-out">                    
+                        <p>Ningún mensaje fue encontrado</p>
+                        <p id="destacado2">Ingresa el texto que desees Cifrar o Descifrar.</p>
+                    </div>
+                    
+                        <button id="copiar" class="copiar" onclick="copiar()">Copiar</button>                
+                </div>
+            
+
+            </section>  
+            
+        </div>
+    </main>
+    <script src="/assets/js/script.js"></script>
+    
+</body>
+</html>

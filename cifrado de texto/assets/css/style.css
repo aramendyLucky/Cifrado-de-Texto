@@ -1,0 +1,264 @@
+body{
+    /* Light blue/light-blue-100 */
+    background-color: #F3F5FC;
+}
+main{
+    width: 100%;
+    height: 90%;
+}
+
+.logo{
+    /* Auto layout */    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;    
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;       
+}
+
+.info{   
+    /*Objetivo es: Colocar arriba de los botones Cifrar/Descifrar*/
+    /* Frame 1 */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 229px;
+    height: 22px;
+    left: 240px;
+    top: 851px;
+}
+
+.info > p{   
+    /* Solo letras minúsculas y sin acentos */
+    width: 305px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+    /* Gray/gray-400 */
+    color: #495057;
+    opacity: 0.8;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.info > img{
+    /* bi:exclamation-circle-fill */
+    width: 20px;
+    height: 20px;
+    /* Inside auto layout */
+    /*flex: none;*/
+    order: 0;
+    flex-grow: 0;
+}
+
+.resultado-tab{
+    /* Seccion 2 */
+    position: absolute;
+    width: 400px;
+    height: 920px;
+    left: 1000px;
+    top: 40px;
+    bottom: 90px;
+    /* White */
+    background: #FFFFFF;
+    /* shadow */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.10);
+    border-radius: 32px;
+    
+}
+::placeholder {
+    color: #0A3871;
+    font-size: 1.3em;
+}
+.mensaje{
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    /*Texto*/
+    font-family:'Montserrat';
+    font-style: normal;
+    font-size: 20px;    
+    /* Dark blue/dark-blue-300 */
+     color: #0A3871;
+     resize: none;
+}
+.munieco{
+    /* Muñeco */
+    position:sticky;
+    width: 336px;
+    height: 304px;
+    left: 1032px;
+    top: 283px;
+}
+.text-out{
+    /* Texto Seccion 2 */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    position: sticky;
+    width: 336px;
+    height: 122px;
+    left: 1032px;
+    top: 619px;
+}
+.text-out :first-child{
+    /* Ningún mensaje fue encontrado */
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    /* Gray/gray-500 */
+    color: #343A40;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#destacado2{
+    /* Ingresa el texto que desees encriptar o desencriptar. */
+    width: 336px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 24px */
+    text-align: center;
+    /* Gray/gray-400 */
+    color: #495057;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.input-texto{
+    /* Ingrese el texto aqui */
+    position: absolute;
+    width: 700px;
+    height: 600px;    
+    left: 240px;
+    top: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* Dark blue/dark-blue-300 */
+    color: #0A3871;
+    resize: none;
+}
+.botones{
+    /* Conjunto de botones */ 
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 24px; 
+     position: relative;
+     width: 680px;
+     height: 67px;
+     left: 240px;
+     top: 885px;
+ }
+
+.cifrar{
+    /* Button */    
+    width: 328px;
+    height: 67px;
+    /* Dark blue/dark-blue-300 */
+    background: #0A3871;
+    border-radius: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /*Texto*/  
+    font-family:'Montserrat';
+    font-style: normal;
+    font-size: 36px;
+    text-align: center;
+    /* White */
+    color: #FFFFFF;
+}
+.cifrar:hover{
+    transform: scale(1.05);
+}
+.descifrar{
+    /* Button */
+    box-sizing: border-box;    
+    width: 328px;
+    height: 67px;
+    /* Light gray */
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    /*Texto*/
+    font-family:'Montserrat';
+    font-style: normal;
+    font-size: 36px;
+    text-align: center;
+    /* Dark blue/dark-blue-300 */
+    color: #0A3871;
+}
+.descifrar:hover{
+    transform: scale(1.05);
+}
+
+.copiar{
+    /* Button */
+    box-sizing: border-box;   
+    align-items:flex-start;
+    gap: 8px;
+    position: sticky;
+    width: 336px;
+    height: 67px;
+    left: 1032px;
+    top: 885px;
+    /* Dark blue/dark-blue-300 */
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family:'Montserrat';    
+    font-size: 36px;
+    /* Dark blue/dark-blue-300 */
+    color: #0A3871;    
+} 
+
+.copiar:hover{
+    transform: scale(1.05);
+}
+
+
+
